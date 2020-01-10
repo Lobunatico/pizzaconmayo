@@ -1,19 +1,121 @@
 body {
-
-color: yellow;
-
-
+  font-family: "Indie Flower", Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+  font-size: 2rem;
+  margin: 0;
+  color: rgb(252, 252, 252);
+  border-color: black;
+  font-weight: 900;
 }
 
-.head1 {
-
-color: tomato;
-
+.base {
+  background-image: url(/lizz.jpg);
+  background-repeat: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.img1 {
+.symbol {
+  padding-top: 7rem;
+  height: 2rem;
+  font-size: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 5px 15px hsl(0, 100%, 22%);
+}
 
-max-height: 100%;
-max-width: 100%;
-border-radius: 2rem;
+.header {
+  font-size: 3rem;
+  max-height: 100rem;
+  max-width: 100rem;
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  justify-content: top;
+  text-align: center;
+  text-shadow: 2px 5px hsl(56, 59%, 20%);
+}
+
+.underbase {
+  font-size: 3rem;
+  margin-bottom: 20rem;
+  text-align: center;
+  height: 20rem;
+  width: 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrowdown {
+  font-size: 5rem;
+}
+
+.maintext {
+  color: rgb(252, 252, 252);
+  text-shadow: 5px 5px black;
+  max-height: 100rem;
+  max-width: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.maintext2 {
+  color: rgb(252, 252, 252);
+  text-shadow: 5px 5px black;
+}
+
+.buttons {
+  background-color: rgb(51, 3, 3);
+  width: 10rem;
+  color: cornsilk;
+  border-radius: 2rem;
+  padding: 1rem;
+  display: inline-block;
+  border: 5px solid blanchedalmond;
+  border-style: inset;
+}
+
+.buttons:hover {
+  background-color: hsl(128, 50%, 5%);
+  border-style: solid;
+  color: hsl(253, 81%, 10%);
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gate1 {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.gate2 {
+  background: none;
+  border: none;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+}
+
+.gate3 {
+  background: none;
+  border: none;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+}
+
+.Truebutton {
+  text-align: center;
 }
