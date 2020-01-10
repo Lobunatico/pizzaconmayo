@@ -89,7 +89,7 @@ body {
   background-color: hsl(128, 50%, 5%);
   border-style: solid;
   color: hsl(253, 81%, 10%);
-  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 10px 32px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .gate1 {
@@ -98,6 +98,7 @@ body {
   color: white;
   font-size: 20px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-shadow: 2px 7px 5px hsl(50, 0%, 0%);
 }
 
 .gate2 {
@@ -106,6 +107,7 @@ body {
   color: white;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 20px;
+  text-shadow: 2px 7px 5px hsl(50, 0%, 0%);
 }
 
 .gate3 {
@@ -114,6 +116,7 @@ body {
   color: white;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 20px;
+  text-shadow: 2px 7px 5px hsl(50, 0%, 0%);
 }
 
 .Truebutton {
