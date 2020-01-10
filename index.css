@@ -1,0 +1,19 @@
+body {
+
+color: yellow;
+
+
+}
+
+.head1 {
+
+color: tomato;
+
+}
+
+.img1 {
+
+max-height: 100%;
+max-width: 100%;
+border-radius: 2rem;
+}
